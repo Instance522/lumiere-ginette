@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.4</Version>
+  <Author>remid</Author>
+ </Creator>
+ <Manufacturer>Ginette</Manufacturer>
+ <Model>lyre</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Pan" Preset="PositionPan"/>
+ <Channel Name="Pan fine" Preset="PositionPanFine"/>
+ <Channel Name="Tilt" Preset="PositionTilt"/>
+ <Channel Name="Tilt fine" Preset="PositionTiltFine"/>
+ <Channel Name="Pan speed" Preset="SpeedPanTiltSlowFast"/>
+ <Channel Name="Dimmer" Preset="IntensityDimmer"/>
+ <Channel Name="No function" Preset="NoFunction"/>
+ <Channel Name="Strobe" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Red" Preset="IntensityRed"/>
+ <Channel Name="Green" Preset="IntensityGreen"/>
+ <Channel Name="Blue" Preset="IntensityBlue"/>
+ <Channel Name="White" Preset="IntensityWhite"/>
+ <Channel Name="RGB mixer" Preset="ColorRGBMixer"/>
+ <Channel Name="Focus" Preset="BeamFocusNearFar"/>
+ <Mode Name="standard">
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Pan fine</Channel>
+  <Channel Number="2">Tilt</Channel>
+  <Channel Number="3">Tilt fine</Channel>
+  <Channel Number="4">Pan speed</Channel>
+  <Channel Number="5">Dimmer</Channel>
+  <Channel Number="6">No function</Channel>
+  <Channel Number="7">Strobe</Channel>
+  <Channel Number="8">Red</Channel>
+  <Channel Number="9">Green</Channel>
+  <Channel Number="10">Blue</Channel>
+  <Channel Number="11">White</Channel>
+  <Channel Number="12">RGB mixer</Channel>
+  <Channel Number="13">Focus</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Head" PanMax="720" TiltMax="180"/>
+  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+ </Physical>
+</FixtureDefinition>
